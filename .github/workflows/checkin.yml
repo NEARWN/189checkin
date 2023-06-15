@@ -33,8 +33,6 @@ jobs:
       run: |
         user='${{ secrets.USER }}'
         pwd='${{ secrets.PWD }}'
-        ddtoken='${{ secrets.DD_TOKEN }}'
-        ddsecret='${{ secrets.DD_SECRET }}'
         
         user_list=()
         pwd_list=()
